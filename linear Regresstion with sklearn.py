@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn import linear_model
 #datsset
-df = pd.read_csv("car_data.csv")
+df = pd.read_csv("data/car_data.csv")
 #Reshaping means changing the shape of an array.
 features = ['Volume','Weight']
 
